@@ -9,7 +9,7 @@ title:  Team
 ## Jayden Tran
 ***UCI Net ID***: vutt4
 
-## ian Bryant
+## Ian Bryant
 ***UCI Net ID***: iwbryant
 
 ## Arjun Mann
