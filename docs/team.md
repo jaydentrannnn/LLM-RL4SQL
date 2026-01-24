@@ -6,11 +6,11 @@ title:  Team
 # {{ page.title }}
 
 
-## USER 1
+## Jayden Tran
 ***UCI Net ID***: vutt4
 
-## USER 2
+## ian Bryant
 ***UCI Net ID***: iwbryant
 
-## USER 3
+## Arjun Mann
 ***UCI Net ID***: mannas1
