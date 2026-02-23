@@ -27,9 +27,9 @@ Github link: https://github.com/taoyds/spider?utm_source=chatgpt.com
 Website link: https://yale-lily.github.io/spider?utm_source=chatgpt.com
 
 ## Code screenshots
-A screenshot of some of our reward functions (query match, and evaluation match):
-<img src="reward_func.png" alt="Reward function screenshot" width="500" />
+A screenshot of some of our reward functions (query match, and evaluation match):  
+<img src="reward_func.png" alt="Reward function screenshot" width="500" />  
 
-How we preprocess our SQL data:
-<img src="pre_proc.png" alt="SQL preprocessing screenshot" width="500" />
+How we preprocess our SQL data:  
+<img src="pre_proc.png" alt="SQL preprocessing screenshot" width="500" />  
 
