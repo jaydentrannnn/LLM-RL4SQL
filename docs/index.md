@@ -18,9 +18,6 @@ It is designed to test generalization across databases, not just memorization of
 Github link: [Spider GitHub](https://github.com/taoyds/spider)  
 Website link: [Spider dataset site](https://yale-lily.github.io/spider)  
 
-<img src="reward_func.png" alt="Reward function screenshot" width="500" />  
-
-
 ## Code screenshots
 A screenshot of some of our reward functions (query match, and evaluation match):  
 <img src="reward_func.png" alt="Reward function screenshot" width="500" />  
