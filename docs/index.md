@@ -3,7 +3,8 @@ layout: default
 title:  Home
 ---
 
-Source code: https://github.com/USER/PROJECT (_fix this_)
+Source code: https://github.com/ianbryant2/cs175-project-code
+Website code: https://github.com/jaydentrannnn/LLM-RL4SQL
 
 Reports:
 
@@ -11,30 +12,23 @@ Reports:
 - [Status](status.html)
 - [Final](final.html)
 
-What's Markdown (`.md`)?
+Welcome to this website. 
 
-Markdown is markup that lets you write hypertext (HTML) documents
-in easy-to-read and easy-to-write plain text.
-No angle brackets `<></>` required for
-paragraphs, lists, blockquotes, tables, etc.
+## Summary of the Project
+Our project explores how reinforcement learning can improve text-to-SQL systems by training models to turn natural language questions and database schemas into executable SQL queries. We use GRPO with verifiable rewards to compare baseline models against RL fine-tuned versions, and we study how different reward designs affect reasoning quality, accuracy, and generalization. To measure our performance, we evaluate on benchmark datasets like Spider using execution accuracy and exact match, with the goal of making SQL generation more reliable on complex, messy data.
 
 
-This is a paragraph (in Markdown). Some more
-text here.
+## Datasets
+Our project uses the Spider (Semantic Parsing with Pre-trained Models) dataset. It is a large-scale, cross-domain text-to-SQL dataset released in 2018 by researchers at Yale and Salesforce.
 
-This is another paragraph.
+It is designed to test generalization across databases, not just memorization of query patterns.
 
-This is a list:
+Github link: https://github.com/taoyds/spider?utm_source=chatgpt.com
+Website link: https://yale-lily.github.io/spider?utm_source=chatgpt.com
 
-- Orange
-- Apple
-- Blueberry
+## Code screenshots
+A screenshot of some of our reward functions (query match, and evaluation match):
+![alt text](reward_func.png)
 
-$$x^2 = y^2$$
-
-
-Just getting started with Markdown?
-See the [HTML <-> Markdown Quick Reference (Cheat Sheet)][quickref].
-
-
-[quickref]: https://github.com/mundimark/quickrefs/blob/master/HTML.md
+How we preprocess our SQL data:
+![alt text](pre_proc.png)
