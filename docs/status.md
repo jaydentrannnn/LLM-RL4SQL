@@ -4,6 +4,7 @@ title:  Status
 ---
 
 # {{ page.title }}
+Status Report Video: https://youtu.be/IPaCM9obRE8
 
 ## Project Summary
 Our project will be using Reinforcement Learning to finetune a large language model in the text2sql task. To explore what affects final model performance we will be evaluating various reward designs as well as system prompts. In addition, we will be exploring how our model with its limited compute compares to other models that are more expensive to run. We hope that the results of this project could help with developing resource constrained LLMs to have strong performance within specific tasks.
