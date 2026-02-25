@@ -5,6 +5,15 @@ title:  Status
 
 # {{ page.title }}
 
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/IPaCM9obRE8"
+title="Status report video"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+allowfullscreen>
+</iframe>
+
+
 ## Project Summary
 Our project will be using Reinforcement Learning to finetune a large language model in the text2sql task. To explore what affects final model performance we will be evaluating various reward designs as well as system prompts. In addition, we will be exploring how our model with its limited compute compares to other models that are more expensive to run. We hope that the results of this project could help with developing resource constrained LLMs to have strong performance within specific tasks.
 
