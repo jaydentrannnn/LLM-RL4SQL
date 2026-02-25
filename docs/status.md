@@ -4,6 +4,7 @@ title:  Status
 ---
 
 # {{ page.title }}
+Status Report Video: https://youtu.be/IPaCM9obRE8
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/IPaCM9obRE8"
