@@ -30,7 +30,7 @@ $$
 
 
 <!-- Where $r_i$ is the reward for the $i$-th completion and $\mathrm{mean}(\bm{r})$ and $\mathrm{std}(\bm{r})$ are statistics calculated from the group of completions.  -->
-Where \(r_i\) is the reward for the \(i\)-th completion and \(\mathrm{mean}(\mathbf{r})\) and \(\mathrm{std}(\mathbf{r})\) are statistics calculated from the group of completions.
+Where $r_i$ is the reward for the $i$-th completion and $\mathrm{mean}(\mathbf{r})$ and $\mathrm{std}(\mathbf{r})$ are statistics calculated from the group of completions.
 
 
 Additionally, the GRPO loss includes a Kullback Leiber (KL) divergence term. KL is a measure of how similar two probability distributions are. By measuring the KL divergence between the policy that is being learned and the reference policy, there is an incentive to not learn policies that stray away from a stable reference policy. Although the true KL divergence can be difficult to estimate, the estimate we used is defined below:
@@ -42,12 +42,12 @@ $$
 \frac{\pi_{\mathrm{ref}}(o_{i,t} \mid q, o_{i,<t})}{\pi_{\theta}(o_{i,t} \mid q, o_{i,<t})}
 -
 \log \frac{\pi_{\mathrm{ref}}(o_{i,t} \mid q, o_{i,<t})}{\pi_{\theta}(o_{i,t} \mid q, o_{i,<t})}
-- 1
+{} - 1
 $$
 
 
 <!-- Where $o_{i, t}$ and $o_{i,<t}$ for completion $i$ is the output token at index $t$ and all output tokens before index $t$ respectively. $q$ is the query token string. -->
-Where \(o_{i,t}\) and \(o_{i,<t}\) for completion \(i\) are the output token at index \(t\) and all output tokens before index \(t\), respectively. \(q\) is the query token string.
+Where $o_{i,t}$ and $o_{i,<t}$ for completion $i$ are the output token at index $t$ and all output tokens before index $t$, respectively. $q$ is the query token string.
 
 
 The final clipped surrogate objective is defined below:
@@ -67,7 +67,7 @@ $$
 1-\epsilon, 1+\epsilon
 \Bigg)\hat{A}_{i,t}
 \Bigg)
-- \beta \mathbb{D}_{\mathrm{KL}}[\pi_{\theta}\|\pi_{\mathrm{ref}}]
+{} - \beta \mathbb{D}_{\mathrm{KL}}[\pi_{\theta}\|\pi_{\mathrm{ref}}]
 \Bigg]
 \end{aligned}
 $$
