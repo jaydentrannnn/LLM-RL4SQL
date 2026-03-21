@@ -155,6 +155,7 @@ The other reward we experimented with was the execution exact match reward. Alth
 We noticed that including this reward had small but negligible gains in performance.
 
 ### Qualitative Results
+----------------------
 
 In order to better understand our qualitative results we investigated how query complexity affects our model performance. We measured this by splitting our test data by how many tokens the correct sql-query has.
 
